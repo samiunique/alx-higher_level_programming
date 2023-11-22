@@ -1,13 +1,13 @@
 Resources<br> 
 To Read or To watch:<br>
 
-- Errors and Exceptions - * https://docs.python.org/3/tutorial/errors.html<br>
+- Errors and Exceptions - https://docs.python.org/3/tutorial/errors.html<br>
 - Learn to Program 11 Static & Exception Handling (starting at minute 7) - * - https://www.youtube.com/watch?v=7vbgD-3s-w4<br>
 
-Learning Objectives
-✔ At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+Learning Objectives<br>
+✔ At the end of this project, you are expected to be able to explain to anyone, without the help of Google:<br>
 
-General
+General<br>
 
 - Why Python programming is awesome
 - What’s the difference between errors and exceptions
