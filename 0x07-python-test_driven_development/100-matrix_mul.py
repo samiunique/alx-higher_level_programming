@@ -8,11 +8,11 @@ def matrix_mul(matrix_a, matrix_b):
     if not isinstance(matrix_b, list):
         raise TypeError("matrix_b must be a list")
 
-    # Variables to verify matrix multiplication compatibility
+    """ Variables to verify matrix multiplication compatibility"""
     num_columns_a = 0
     num_rows_b = 0
 
-    # Check requirements for matrix_a
+   """ # Check requirements for matrix_a"""
     if not matrix_a:
         raise ValueError("matrix_a can't be empty")
     for row in matrix_a:
@@ -27,7 +27,7 @@ def matrix_mul(matrix_a, matrix_b):
             if not isinstance(element, (int, float)):
                 raise TypeError("matrix_a should contain only integers or floats")
 
-    # Check requirements for matrix_b
+   """ # Check requirements for matrix_b"""
     if not matrix_b:
         raise ValueError("matrix_b can't be empty")
     for row in matrix_b:
@@ -42,7 +42,7 @@ def matrix_mul(matrix_a, matrix_b):
             if not isinstance(element, (int, float)):
                 raise TypeError("matrix_b should contain only integers or floats")
 
-    # Check if multiplication is possible
+  """  # Check if multiplication is possible"""
     if num_columns_a != num_rows_b:
         raise ValueError("matrix_a and matrix_b can't be multiplied")
 
