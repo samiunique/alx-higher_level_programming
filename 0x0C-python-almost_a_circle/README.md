@@ -4,7 +4,7 @@ Background Context<br>
 In this project, you will review everything about Python:<br>
 
 - Import<br>
-- Exception<br>s
+- Exceptions<br>
 - Class<br>
 - Private attribute<br>
 - Getter/Setter<br>
@@ -25,7 +25,7 @@ Resources To Read or to watch:
 - JSON encoder and decoder https://docs.python.org/3/library/json.html<br>
 - unittest module https://docs.python.org/3.4/library/unittest.html#module-unittest<br>
 - Python test cheatsheet https://www.pythonsheets.com/notes/python-tests.html<br>
-👀  Learning Objectives 👀
+👀  Learning Objectives 👀<br>
 👍 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 Ingeneral
