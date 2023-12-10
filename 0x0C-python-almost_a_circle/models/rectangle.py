@@ -78,3 +78,12 @@ class Rectangle(Base):
         """Return the print() and str() representation of the Rectangle."""
         return f"[Rectangle] ({self.id}) {self.x}/{self.y} - {self.width}/{self.height}"
 
+    def update(self, *args):
+        if len(args) != 0:
+            raise ValueError("update() takes exactly 5 arguments")
+
+        self.id = args[0]
+        self.width = args[1]
+        self.height = args[2]
+        self.x = args[3]
+        self.y = args[4]
