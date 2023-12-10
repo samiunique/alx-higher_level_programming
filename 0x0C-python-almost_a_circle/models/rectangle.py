@@ -2,6 +2,8 @@
 from models.base import Base
 
 """ defines class named Rectangle that inherits from the Base """
+
+
 class Rectangle(Base):
     def __init__(self, width, height, x=0, y=0, id=None):
         super().__init__(id)
@@ -77,7 +79,6 @@ class Rectangle(Base):
     def __str__(self):
         """Return the print() and str() representation of the Rectangle."""
         return f"[Rectangle] ({self.id}) {self.x}/{self.y} - {self.width}/{self.height}"
-
 
     def update(self, *args, **kwargs):
         """ *kwargs (dict): New key/value pairs of attributes."""
