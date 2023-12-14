@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-# test_rectangle.py
-# Brennan D Baraban <375@holbertonschool.com>
 """Defines unittests for models/rectangle.py.
-
+copied from alx
 Unittest classes:
     TestRectangle_instantiation - line 25
     TestRectangle_width - line 114
