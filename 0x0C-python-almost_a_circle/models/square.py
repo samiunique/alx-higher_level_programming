@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """Defines a square class."""
 from models.rectangle import Rectangle
 
@@ -27,10 +26,6 @@ class Square(Rectangle):
     def size(self, value):
         self.width = value
         self.height = value
-
-    def __str__(self):
-        """Return the print() and str() representation of a Square."""
-        return f"[squre] ({self.id}) {self.x}/{self.y} - {self.width}/{self.height}"
 
     def update(self, *args, **kwargs):
         """Update the Square.
